@@ -1,34 +1,34 @@
 #include <stdio.h>
 #include <string.h>
 
-struct Mahasiswa {
-  char name[50];
-  char address[100];
-  int age;
+struct Mahasiswa_081 {
+  char name_081[50];
+  char address_081[100];
+  int age_081;
 };
 
 int main() {
-  struct Mahasiswa mhs1, mhs2; 
+  struct Mahasiswa_081 mhs1_081, mhs2_081; 
 
-  strcpy(mhs1.name, "Dian");
-  strcpy(mhs1.address, "Mataram");
-  mhs1.age = 22;
+  strcpy(mhs1_081.name_081, "Dian");
+  strcpy(mhs1_081.address_081, "Mataram");
+  mhs1_081.age_081 = 22;
 
-  strcpy(mhs2.name, "Bambang");
-  strcpy(mhs2.address, "Surabaya");
-  mhs2.age = 23;
+  strcpy(mhs2_081.name_081, "Bambang");
+  strcpy(mhs2_081.address_081, "Surabaya");
+  mhs2_081.age_081 = 23;
 
   printf("## Mahasiswa 1 ##\n");
-  printf("Nama: %s\n", mhs1.name);
-  printf("Alamat: %s\n", mhs1.address);
-  printf("Umur: %d\n", mhs1.age);
+  printf("Nama: %s\n", mhs1_081.name_081);
+  printf("Alamat: %s\n", mhs1_081.address_081);
+  printf("Umur: %d\n", mhs1_081.age_081);
 
   printf("\n");
 
   printf("## Mahasiswa 2 ##\n");
-  printf("Nama: %s\n", mhs2.name);
-  printf("Alamat: %s\n", mhs2.address);
-  printf("Umur: %d\n", mhs2.age);
+  printf("Nama: %s\n", mhs2_081.name_081);
+  printf("Alamat: %s\n", mhs2_081.address_081);
+  printf("Umur: %d\n", mhs2_081.age_081);
 
   return 0;
 }
